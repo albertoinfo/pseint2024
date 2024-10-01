@@ -19,7 +19,7 @@ Algoritmo EjAlt05
 	Escribir " 1º Forma: El mayor es " mayor
 	
 	si ( num1 > num2  y num1 > num2 ) Entonces
-		mayor = num2
+		mayor = num1
 	SiNo
 		si ( num2 > num3 )
 			mayor = num2
@@ -29,22 +29,6 @@ Algoritmo EjAlt05
 	FinSi
 	
 	Escribir " 2º Forma: El mayor es " mayor
-	
-	si ( num1 > num2 )
-		si (num1 > num3)
-			mayor = num1
-		SiNo
-			mayor = num3
-		FinSi
-	SiNo
-		si ( num2 > num3 )
-			mayor = num2
-		sino 
-			mayor = num3
-		FinSi
-	FinSi
-	
-	Escribir " 3º Forma: El mayor es " mayor
 	
 	
 FinAlgoritmo
