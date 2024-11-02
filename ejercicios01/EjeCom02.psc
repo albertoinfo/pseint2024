@@ -1,11 +1,11 @@
-// Elaborar un programa que muestre el precio de un billete de autob˙s, 
-// que se calcula en base a los kilÛmetros de trayecto ( 0.30 Euros por Km ),
+// Elaborar un programa que muestre el precio de un billete de autob√∫s, 
+// que se calcula en base a los kil√≥metros de trayecto ( 0.30 Euros por Km ),
 // pero si el recorrido supera los 80 Km se aplica un 15 % de descuento y 
-// que si el trayecto se realiza en dÌa laborable (L) hay un 5 % de descuento
-// respecto si es dÌa festivo (F). Datos a introducir: kilÛmetros de recorrido 
-// y tipo de dÌa. Hay que tener presente que hay que acumular los descuentos:
+// que si el trayecto se realiza en d√≠a laborable (L) hay un 5 % de descuento
+// respecto si es d√≠a festivo (F). Datos a introducir: kil√≥metros de recorrido 
+// y tipo de d√≠a. Hay que tener presente que hay que acumular los descuentos:
 // 0 (Sin descuento), 5 %(Solo laborable), 
-// 15% (Solo m·s de 80 km) o 20%( Laborable y distancia m·s de 80).
+// 15% (Solo m√°s de 80 km) o 20%( Laborable y distancia m√°s de 80).
 
 Algoritmo EjeCom02
 	
@@ -34,7 +34,7 @@ Algoritmo EjeCom02
 	
 	importeTotal = importeBase - importeBase*descuentos/100
 	
-	Escribir " El importe total de la factura es ", importeTotal
+	Escribir " El importe total del billete es ", importeTotal
 	Escribir " Descuento aplicado ", descuentos, " % "
 	
 	
